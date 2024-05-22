@@ -1,0 +1,81 @@
+// .container {
+//   // display: flex;
+//   // align-items: center;
+//   // flex-direction: column;
+//   // padding-top: 84px;
+// }
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 750px;
+  gap: 20px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.banner {
+  font-size: 20px;
+  color: var(--white-500);
+  background-color: var(--black-500);
+  height: 59px;
+  width: 270px;
+  margin-bottom: 38px;
+  transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 74px;
+
+  p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0 var(--page-x-padding);
+  }
+}
+
+.cta-button {
+  font-size: 20px;
+  border-radius: 48px;
+  margin: 0 auto 92px;
+  max-width: 200px;
+  @media (min-width: 768px) {
+    min-width: 200px;
+  }
+}
+
+.character {
+  margin-bottom: 52px;
+}
+
+.slider {
+  margin-bottom: 52px;
+}
+
+.ticker {
+  transform: rotate(-4deg);
+}
+
+.column-content {
+  justify-self: center;
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.column-image {
+  // Styling for the image column, if needed
+}

@@ -1,0 +1,13 @@
+.container {
+  background-color: var(--black-500);
+  color: var(--yellow-500);
+  font-family: var(--secondary-font);
+  line-height: 22px;
+  box-shadow: var(--box-shadow);
+  min-height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  white-space: nowrap;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&display=swap');
+@import '@uniswap/widgets/dist/fonts.css';
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+:root {
+  --primary-font: 'Noto Sans', sans-serif;
+  --secondary-font: 'Bungee', sans-serif;
+
+  --yellow-500: #fffc52;
+  --black-500: #000000;
+  --white-500: #ffffff;
+
+  --page-x-padding: 24px;
+
+  --box-shadow: 3px 3px 9px #00000047;
+
+  @media (min-width: 480px) {
+    --page-x-padding: 32px;
+  }
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--primary-font);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.carousel-container .slick-slide {
+  @media screen and (min-width: 768px) {
+    margin-right: 40px;
+  }
+
+  img {
+    max-width: 90%;
+    display: block;
+    border: 4px black solid;
+    border-radius: 20px;
+    background-color: #fffc52;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+      // max-height: 350px;
+      width: auto;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .carousel-container .slick-track {
+    margin-right: -10px;
+  }
+
+  .carousel-container .slick-list {
+    margin-right: -10px;
+  }
+}
+
+.c-dqPNYr {
+  display: block !important;
+}
+
+.c-fYpRoK-kVWPZF-height-auto {
+  max-width: none !important;
+  height: auto;
+  max-height: 700px;
+  width: 100% !important;
+}
+
+.jupiter-terminal {
+  background: black;
+  border-radius: 25px;
+  padding: 20px 16px;
+}
+
+.slick-dots {
+  position: static;
+  margin-bottom: 30px;
+}
+
+// .slide-container {
+//   background-color: #fffc52;
+// }
+
+.slick-slider {
+  overflow: hidden;
+}

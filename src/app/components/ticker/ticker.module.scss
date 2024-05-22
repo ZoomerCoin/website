@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  background-color: var(--black-500);
+  padding: 14px 0;
+  flex: 1;
+  width: 110%;
+  overflow: hidden;
+  margin-left: -10px;
+
+  @media screen and (max-width: 768px) {
+    width: 102%;
+  }
+}
+
+.marquee {
+  width: 100%;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  color: var(--yellow-500);
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.icon {
+  color: var(--black-500);
+  background-color: var(--white-500);
+  border-radius: 50%;
+  font-family: var(--secondary-font);
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 32px;
+}

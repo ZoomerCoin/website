@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 2400px;
+  margin: auto;
+}
+
+.bg-gradient {
+  background: transparent
+    linear-gradient(180deg, #ffffff 0%, #fffd8c 11%, #fffc52 65%, #696683 100%)
+    0 0 no-repeat padding-box;
+}
